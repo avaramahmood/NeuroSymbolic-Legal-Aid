@@ -14,7 +14,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 RULES_DIR = os.path.join(DATA_DIR, "extracted_rules")
 CACHE_FILE = os.path.join(DATA_DIR, "rule_vectors.npy")
 
-# Import settings
+# Import settings from your config.py
 from config import (
     COLLECTION_NAME, 
     EMBED_MODEL_NAME, 
@@ -23,8 +23,12 @@ from config import (
     get_client
 )
 
-# --- PART 1: THE FAISS SEARCH ENGINE ---
+
 class RuleSearchEngine:
+    """
+    Responsible for finding exact Acts and Sections (Statutes).
+    Uses FAISS for fast semantic search.
+    """
     def __init__(self, embed_model):
         self.embed_model = embed_model
         self.rules = []
@@ -57,7 +61,7 @@ class RuleSearchEngine:
 
         # 2. Build or Load FAISS Index
         if os.path.exists(CACHE_FILE):
-            print("    Loading cached Vector Index...")
+            # print("    Loading cached Vector Index...")
             vectors = np.load(CACHE_FILE)
             if len(vectors) != len(self.rules):
                 print("    Data mismatch. Rebuilding index...")
@@ -67,10 +71,10 @@ class RuleSearchEngine:
         else:
             self._build_new_index()
         
-        print(f"    Indexed {len(self.rules)} rules in memory.")
+        print(f"    Indexed {len(self.rules)} statutory rules.")
 
     def _build_new_index(self):
-        print("    Building Index (This takes time once)...")
+        print("   Building Index (This takes time once)...")
         if not self.rules: return
             
         texts = [
@@ -111,7 +115,7 @@ class RuleSearchEngine:
             sec = str(rule.get('section', '')).lower()
             theme = str(rule.get('source_theme', '')).lower()
             
-            # Boost specific matches
+            # Boost matches if the query explicitly mentions section numbers
             if sec and sec in query_lower: score += 0.8
             if theme in query_lower: score += 0.2
             
@@ -121,16 +125,21 @@ class RuleSearchEngine:
         results.sort(key=lambda x: x['final_score'], reverse=True)
         return results[:top_k]
 
-# --- PART 2: THE RECURSIVE BRAIN (Logic Core) ---
+
 class LegalBrain:
     def __init__(self):
         print("\n Initializing Recursive Legal Brain (Local)...")
+        
+        # 1. Initialize Reasoning Model (Ollama)
         self.llm_client = OpenAI(base_url=OLLAMA_BASE_URL, api_key="ollama")
         
-        print(f"   Loading AI Model ({EMBED_MODEL_NAME})...")
+        # 2. Initialize Embedding Model
+        print(f"   Loading Embeddings ({EMBED_MODEL_NAME})...")
         self.embed_model = SentenceTransformer(EMBED_MODEL_NAME)
         
-        print("   Connecting to Embedded Weaviate...")
+        # 3. Connect to Case Law Database (Weaviate)
+        print("   🔌 Connecting to Weaviate (Case Law)...")
+        self.db_client = None
         try:
             self.db_client = get_client()
             self.collection = self.db_client.collections.get(COLLECTION_NAME)
@@ -138,9 +147,11 @@ class LegalBrain:
             print(f"    DB Connection Failed: {e}")
             self.collection = None
         
+        # 4. Initialize Rule Engine (FAISS)
         self.rule_engine = RuleSearchEngine(self.embed_model)
 
     def search_cases(self, query, limit=3):
+        """Fetches relevant precedents from Weaviate."""
         if not self.collection: return []
         try:
             vec = self.embed_model.encode(query)
@@ -150,134 +161,148 @@ class LegalBrain:
             return []
 
     def think(self, user_query):
-        print(f"\n🔍 Query: '{user_query}'")
+        print(f"\n Processing Query: '{user_query}'")
         
-        # --- STEP 1: ROBUST RETRIEVAL ---
-        print("   1. Searching Case Law & Statutes...")
-        try:
-            cases = self.search_cases(user_query)
-            # Safe extraction of text for the search query
-            case_text = " ".join([c.properties.get('content', '') for c in cases]) if cases else ""
-            
-            # Extract section numbers (e.g., "Section 79") to refine the rule search
-            found_sections = list(set(re.findall(r'((?:Section|Article|Order|Rule)\s+\d+[A-Za-z]?)', case_text, re.IGNORECASE)))
-            
-            smart_query = f"{user_query} {' '.join(found_sections)}" if found_sections else user_query
-            rules = self.rule_engine.search(smart_query, top_k=5)
-        except Exception as e:
-            print(f"      [!] Retrieval Warning: {e}")
-            cases, rules = [], []
+        # --- PHASE 1: PRECEDENT RETRIEVAL (Weaviate) ---
+        print("   1. Searching Case Law (Precedents)...")
+        cases = self.search_cases(user_query)
+        print(f"      Found {len(cases)} relevant cases.")
+        
+        # --- PHASE 2: RECURSIVE DISCOVERY ---
+        # Scan the found cases for mentions of specific Sections (e.g., "Section 79")
+        print("   2. Analyzing cases for hidden statutory references...")
+        
+        case_text_blob = " ".join([c.properties.get('content', '') for c in cases]) if cases else ""
+        
+        # Regex to find "Section 123", "Article 21", "Order 39", etc.
+        found_sections = list(set(re.findall(r'((?:Section|Article|Order|Rule)\s+\d+[A-Za-z]?)', case_text_blob, re.IGNORECASE)))
+        
+        smart_query = user_query
+        if found_sections:
+            print(f"      Detected implied sections: {found_sections}")
+            # We append these sections to the query to force the Rule Engine to find them
+            smart_query = f"{user_query} {' '.join(found_sections)}"
 
-        # --- STEP 2: CONTEXT PREPARATION ---
-        context_str = ""
-        if cases:
-            context_str += "--- RELEVANT PRECEDENTS ---\n"
-            for c in cases:
-                # Truncate to prevent context overflow
-                snippet = c.properties.get('content', '')[:400].replace('\n', ' ')
-                context_str += f"- {snippet}...\n"
+        # --- PHASE 3: STATUTORY SEARCH (FAISS) ---
+        print(f"   3. Searching Statutes (FAISS) using Smart Query...")
+        rules = self.rule_engine.search(smart_query, top_k=5)
         
+        # --- PHASE 4: CONTEXT ASSEMBLY ---
+        context_str = ""
+        
+        if cases:
+            context_str += "--- RELEVANT CASE PRECEDENTS ---\n"
+            for i, c in enumerate(cases):
+                # We limit text length to avoid overflowing context window
+                content = c.properties.get('content', '')[:500].replace('\n', ' ')
+                source = c.properties.get('source', 'Unknown Case')
+                context_str += f"[Case {i+1}] {source}: \"{content}...\"\n\n"
+            
         if rules:
-            context_str += "\n--- STATUTORY RULES ---\n"
+            context_str += "--- APPLICABLE STATUTES & ACTS ---\n"
             for r in rules:
-                context_str += f"- {r.get('section')}: {r.get('title')} -> {r.get('consequence')}\n"
+                context_str += f"[{r['source_theme']}] {r.get('section')}: {r.get('title')}\n"
+                context_str += f"   -> Legal Consequence: {r.get('consequence')}\n\n"
         
         if not context_str:
-            context_str = "No specific case law or statutes found in database. Rely on general legal principles."
+            context_str = "No specific legal documents found. Rely on general legal principles."
 
-        # --- STEP 3: PROMPT ENGINEERING (The "Jailbreak") ---
-        # We enforce a specific structure to ensure we can parse the output even if <think> tags fail.
+        # --- PHASE 5: PROMPT ENGINEERING (Conflict Aware) ---
         prompt = f"""
         [ROLE]
-        You are a Senior Legal Strategist for the Indian Supreme Court.
+        You are a Senior Legal Strategist for the Supreme Court.
         
         [INPUT DATA]
         USER QUERY: "{user_query}"
-        LEGAL CONTEXT:
+        
+        LEGAL CONTEXT (Sources of Law):
         {context_str}
         
-        [INSTRUCTIONS]
-        You must strictly follow this format. Do not output anything else.
+        [CRITICAL INSTRUCTIONS]
+        You must structure your response EXACTLY as follows:
         
         PART 1: INTERNAL REASONING
-        Start with the exact header: "###  DEEP THOUGHTS"
-        - Analyze the conflict between the User's situation and the Statutes/Precedents.
-        - If laws conflict (e.g., Contract Act vs Consumer Act), debate which one prevails.
-        - Be skeptical of the company's claims.
+        Start this section with "### DEEP THOUGHTS".
+        - First, analyze the Case Law. What did the courts decide?
+        - Second, analyze the Statutes. What do the written rules say?
+        - **CONFLICT CHECK:** Does the User's contract conflict with a Statute (e.g., Section 27 vs Non-Compete)? If yes, STATUTES usually override private contracts.
+        - **DEFENSE CHECK:** Does the company claim a defense (e.g., Safe Harbor) that is invalidated by their actions (e.g., Active Logistics)?
         
-        PART 2: FINAL VERDICT
-        Start with the exact header: "###  LEGAL OPINION"
-        - Provide clear, actionable advice to the user.
-        - Cite specific sections from the context provided.
+        PART 2: FINAL OPINION
+        Start this section with "### LEGAL OPINION".
+        - Provide the final professional advice to the user.
+        - Cite the specific Sections and Case Names found in the context.
         """
 
-        # --- STEP 4: EXECUTION & PARSING ---
+        # --- PHASE 6: EXECUTION ---
         print("   4. Synthesizing Opinion (DeepSeek-R1)...")
         try:
             response = self.llm_client.chat.completions.create(
                 model=GEN_MODEL,
-                messages=[{"role": "user", "content": prompt}], # 'User' role is better for R1 models
-                temperature=0.6, # 0.6 is the sweet spot for reasoning
-                max_tokens=4000  # Ensure it doesn't cut off mid-thought
+                messages=[{"role": "user", "content": prompt}], 
+                temperature=0.6,
+                max_tokens=4000
             )
             
-            raw_output = response.choices[0].message.content
+            raw = response.choices[0].message.content
             
-            # --- ROBUST PARSING LOGIC ---
-            # 1. Try to find standard <think> tags (native DeepSeek behavior)
-            think_match = re.search(r'<think>(.*?)</think>', raw_output, re.DOTALL | re.IGNORECASE)
-            
-            # 2. If no tags, look for our custom headers
-            custom_think_match = re.search(r'###  DEEP THOUGHTS(.*?)(?=### |### LEGAL)', raw_output, re.DOTALL | re.IGNORECASE)
+            # --- PHASE 7: ROBUST PARSING (Handle Missing Tags) ---
+            # 1. Try Standard XML Tags
+            match_xml = re.search(r'<think>(.*?)</think>', raw, re.DOTALL | re.IGNORECASE)
+            # 2. Try Our Custom Headers
+            match_custom = re.search(r'### DEEP THOUGHTS(.*?)(?=### |### LEGAL)', raw, re.DOTALL | re.IGNORECASE)
             
             thought_content = ""
-            final_answer = raw_output
+            final_answer = raw
 
-            if think_match:
-                thought_content = think_match.group(1).strip()
-                final_answer = raw_output.replace(think_match.group(0), "").strip()
-            elif custom_think_match:
-                thought_content = custom_think_match.group(1).strip()
-                # Remove the thought part from the final answer
-                final_answer = raw_output.replace(custom_think_match.group(0), "").replace("### DEEP THOUGHTS", "").strip()
-                # Clean up the second header if it exists
+            if match_xml:
+                thought_content = match_xml.group(1).strip()
+                final_answer = raw.replace(match_xml.group(0), "").strip()
+            elif match_custom:
+                thought_content = match_custom.group(1).strip()
+                # Clean up the output by removing the thought section from the final string
+                final_answer = raw.replace(match_custom.group(0), "").replace("### DEEP THOUGHTS", "").strip()
                 final_answer = re.sub(r'###  LEGAL OPINION', '', final_answer, flags=re.IGNORECASE).strip()
 
-            # --- FORMATTING THE OUTPUT ---
-            formatted_output = ""
-            
+            # Format the display
+            output = ""
             if thought_content:
-                formatted_output += f"\n###  DEEP THOUGHTS\n{thought_content}\n"
-                formatted_output += "\n" + "-"*40 + "\n"
+                output += "\n" + "="*20 + " INTERNAL REASONING " + "="*20 + "\n"
+                output += thought_content + "\n"
+                output += "="*60 + "\n"
             
-            formatted_output += f"\n###  LEGAL OPINION\n{final_answer}"
-            
-            return formatted_output
+            output += "\n### LEGAL OPINION\n" + final_answer
+            return output
 
         except Exception as e:
-            return f" **Error generating legal opinion:** {str(e)}\n\n*Check if your Ollama server is running 'deepseek-r1:7b'*"
+            return f"Error: {e}"
+
     def close(self):
-        """Gracefully closes the Weaviate client."""
+        """Gracefully closes database connections."""
         if self.db_client:
-            print("\n    Closing Weaviate Connection...")
+            print("\n   🔌 Closing Weaviate Connection...")
             self.db_client.close()
 
+
 if __name__ == "__main__":
+    brain = None
     try:
         brain = LegalBrain()
-        print("\n System Ready. Type 'exit' to quit.")
+        print("\nSystem Ready. Type 'exit' to quit.")
         
         while True:
-            q = input("\n  Ask Legal Brain: ")
+            q = input("\n Ask Legal Brain: ")
             if q.lower() in ["exit", "quit"]: break
             if not q.strip(): continue
             
             start_t = time.time()
-            print("\n" + "="*60)
+            print("\n" + "-"*60)
             print(brain.think(q))
-            print("="*60)
-            print(f" Total Time: {time.time()-start_t:.2f}s")
+            print("-"*60)
+            print(f"Total Time: {time.time()-start_t:.2f}s")
             
     except KeyboardInterrupt:
         print("\nExiting...")
-    
+    finally:
+        if brain:
+            brain.close()
