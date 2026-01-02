@@ -1,0 +1,1442 @@
+[
+  {
+    "section": "1.",
+    "title": "Short title , extent  and application.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Short title , extent  and application.",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Definitions.  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Definitions.  \nCHAPTER II  \nUNLAWFUL ASSOCIATION S",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Declaration of an association as unlawful.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Declaration of an association as unlawful.",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "Reference to Tribunal.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Reference to Tribunal.",
+    "exceptions": []
+  },
+  {
+    "section": "5.",
+    "title": "Tribunal.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Tribunal.",
+    "exceptions": []
+  },
+  {
+    "section": "6.",
+    "title": "Period of operation and cancellation of notification.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Period of operation and cancellation of notification.",
+    "exceptions": []
+  },
+  {
+    "section": "7.",
+    "title": "Power to prohibit the use of funds of an unlawful association.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to prohibit the use of funds of an unlawful association.",
+    "exceptions": []
+  },
+  {
+    "section": "8.",
+    "title": "Power to notify places used for the purpose of an unlawful association.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to notify places used for the purpose of an unlawful association.",
+    "exceptions": []
+  },
+  {
+    "section": "9.",
+    "title": "Procedure to be followed in the disposal of applications under this Act.  ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Procedure to be followed in the disposal of applications under this Act.  \nCHAPTER III  \nOFFENCES AND PENALTIES",
+    "exceptions": []
+  },
+  {
+    "section": "10.",
+    "title": "Penalty for being member of an unlawful association , etc.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Penalty for being member of an unlawful association , etc.",
+    "exceptions": []
+  },
+  {
+    "section": "11.",
+    "title": "Penalty for dealing with funds of an unlawful association.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Penalty for dealing with funds of an unlawful association.",
+    "exceptions": []
+  },
+  {
+    "section": "12.",
+    "title": "Penalty for contravention of an order made in respect of a notified place.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Penalty for contravention of an order made in respect of a notified place.",
+    "exceptions": []
+  },
+  {
+    "section": "13.",
+    "title": "Punishment for unlawful activities.",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for unlawful activities.",
+    "exceptions": []
+  },
+  {
+    "section": "14.",
+    "title": "Offences to be cognizable.  ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Offences to be cognizable.  \nCHAPTER IV  \nPUNISHMENT FOR TERRORIST ACTIVITIES",
+    "exceptions": []
+  },
+  {
+    "section": "15.",
+    "title": "Terrorist act.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Terrorist act.",
+    "exceptions": []
+  },
+  {
+    "section": "16.",
+    "title": "Punishment for terrorist act. ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for terrorist act. \n16A. [ Omitted ].",
+    "exceptions": []
+  },
+  {
+    "section": "17.",
+    "title": "Punishment for raising fund s for terrorist act.",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for raising fund s for terrorist act.",
+    "exceptions": []
+  },
+  {
+    "section": "18.",
+    "title": "Punishment for conspiracy, etc.  ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for conspiracy, etc.  \n18A. Punishment for organi sing of terrorist camps.  \n18B. Punishment for recruiting of any person or persons for terrorist act.",
+    "exceptions": []
+  },
+  {
+    "section": "19.",
+    "title": "Punishment for harbouring, etc.",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for harbouring, etc.",
+    "exceptions": []
+  },
+  {
+    "section": "20.",
+    "title": "Punishment for being member of terrorist gang or organisation.",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for being member of terrorist gang or organisation.",
+    "exceptions": []
+  },
+  {
+    "section": "21.",
+    "title": "Punishment for holding proceeds of terrorism.",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for holding proceeds of terrorism.",
+    "exceptions": []
+  },
+  {
+    "section": "22.",
+    "title": "Punishment for threatening witness.  ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for threatening witness.  \n2 \n SECTIONS  \n22A. Offences by companies.  \n22B. Offences by societies or trusts.  \n22C. Punishment for offences by companies, societies or trusts.",
+    "exceptions": []
+  },
+  {
+    "section": "23.",
+    "title": "Enhanced penalties.  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Enhanced penalties.  \nCHAPTER V  \nFORFEITURE OF PROCEEDS OF TERRORISM  OR ANY PROPERTY INTENDED TO BE  \nUSED  FOR TERRORISM",
+    "exceptions": []
+  },
+  {
+    "section": "24.",
+    "title": "Reference to proceeds of terrorism to include any property intended to be used for terrorism.  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Reference to proceeds of terrorism to include any property intended to be used for terrorism.  \n24A. Forfeiture of proceeds of terrorism.",
+    "exceptions": []
+  },
+  {
+    "section": "25.",
+    "title": "Powers of investigating officer and Designated Authority and appeal against order of Designated ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Powers of investigating officer and Designated Authority and appeal against order of Designated \nAuthority.",
+    "exceptions": []
+  },
+  {
+    "section": "26.",
+    "title": "Court to order forfeiture of proceeds of terrorism.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Court to order forfeiture of proceeds of terrorism.",
+    "exceptions": []
+  },
+  {
+    "section": "27.",
+    "title": "Issue of show cause notice before forfeiture of proceeds of terrorism.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Issue of show cause notice before forfeiture of proceeds of terrorism.",
+    "exceptions": []
+  },
+  {
+    "section": "28.",
+    "title": "Appeal.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Appeal.",
+    "exceptions": []
+  },
+  {
+    "section": "29.",
+    "title": "Order of forfeiture not to Interfere with other punishments.",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Order of forfeiture not to Interfere with other punishments.",
+    "exceptions": []
+  },
+  {
+    "section": "30.",
+    "title": "Claims by third party.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Claims by third party.",
+    "exceptions": []
+  },
+  {
+    "section": "31.",
+    "title": "Powers of Designated Authority.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Powers of Designated Authority.",
+    "exceptions": []
+  },
+  {
+    "section": "32.",
+    "title": "Certain transfers to be null and void.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Certain transfers to be null and void.",
+    "exceptions": []
+  },
+  {
+    "section": "33.",
+    "title": "Forfeiture of property of certain persons.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Forfeiture of property of certain persons.",
+    "exceptions": []
+  },
+  {
+    "section": "34.",
+    "title": "Company to transfer shares to Government.  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Company to transfer shares to Government.  \nCHAPTER VI  \nTERRORIST ORGANISATIONS",
+    "exceptions": []
+  },
+  {
+    "section": "35.",
+    "title": "Amendment of Schedule, etc.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Amendment of Schedule, etc.",
+    "exceptions": []
+  },
+  {
+    "section": "36.",
+    "title": "Denotification of a terrorist organisation.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Denotification of a terrorist organisation.",
+    "exceptions": []
+  },
+  {
+    "section": "37.",
+    "title": "Review Committees.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Review Committees.",
+    "exceptions": []
+  },
+  {
+    "section": "38.",
+    "title": "Offence relating to membership of a terrorist organisation",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Offence relating to membership of a terrorist organisation",
+    "exceptions": []
+  },
+  {
+    "section": "39.",
+    "title": "Offence relating to support given to a terrorist organisation.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Offence relating to support given to a terrorist organisation.",
+    "exceptions": []
+  },
+  {
+    "section": "40.",
+    "title": "Offence of raising fund for a terrorist organisation.  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Offence of raising fund for a terrorist organisation.  \nCHAPTER VII  \nMISCELLANEOUS",
+    "exceptions": []
+  },
+  {
+    "section": "41.",
+    "title": "Continuance of association.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Continuance of association.",
+    "exceptions": []
+  },
+  {
+    "section": "42.",
+    "title": "Power to delegate.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to delegate.",
+    "exceptions": []
+  },
+  {
+    "section": "43.",
+    "title": "Officers competent to investigate offence unde r Chapters IV and VI.  ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Officers competent to investigate offence unde r Chapters IV and VI.  \n43A. Power to arrest, search, etc.  \n43B. Procedure of arrest, seizure , etc. \n43C. Application of provisions of Code.  \n43D. Modified application of certain provisions of the Code.  \n3 \n SECTIONS  \n43E. Presumption as to offence under section 15.  \n43F. Obligation to furnish information.",
+    "exceptions": []
+  },
+  {
+    "section": "44.",
+    "title": "Protection of witnesses.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Protection of witnesses.",
+    "exceptions": []
+  },
+  {
+    "section": "45.",
+    "title": "Cognizance of offences.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Cognizance of offences.",
+    "exceptions": []
+  },
+  {
+    "section": "46.",
+    "title": "Admissibility of evidence collected through the interception of communications.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Admissibility of evidence collected through the interception of communications.",
+    "exceptions": []
+  },
+  {
+    "section": "47.",
+    "title": "Bar of jurisdiction.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Bar of jurisdiction.",
+    "exceptions": []
+  },
+  {
+    "section": "48.",
+    "title": "Effect of Act and rules, etc., inconsistent wi th other enactments.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Effect of Act and rules, etc., inconsistent wi th other enactments.",
+    "exceptions": []
+  },
+  {
+    "section": "49.",
+    "title": "Protection of action taken in good faith.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Protection of action taken in good faith.",
+    "exceptions": []
+  },
+  {
+    "section": "50.",
+    "title": "Saving.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Saving.",
+    "exceptions": []
+  },
+  {
+    "section": "51.",
+    "title": "Impounding of passport and arms licence of person charge sheeted under the Act. ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Impounding of passport and arms licence of person charge sheeted under the Act. \n51A. Certain powers of the Central Government.",
+    "exceptions": []
+  },
+  {
+    "section": "52.",
+    "title": "Power to make rules.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to make rules.",
+    "exceptions": []
+  },
+  {
+    "section": "53.",
+    "title": "Orders and rules to be laid before both Houses of Parliament.  ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Orders and rules to be laid before both Houses of Parliament.  \nTHE FIRST SCHEDULE . \nTHE SECOND SCHEDULE . \nTHE THIRD SCHEDULE . \n  \n4 \n THE UNLAWFUL ACTIVITIES (PREVENTION) ACT, 1967  \nACT NO. 37 OF 1967  \n[30th December, 1967 .] \nAn Act to provide for the more effective prevention of certain unlawful activities of individuals \nand associations  1[, and for dealing with  terrorist activities ,] and for  matters connected \ntherewith.  \n2[WHEREAS  the Security Council of the United Nations in it",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Definitions .—(1) In this Act, unless the context otherwise requires, — ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Definitions .—(1) In this Act, unless the context otherwise requires, — \n(a) “association ” means any combination or body of individuals;  \n(b) “cession of a part of the territory of India ” includes admission of the claim of any f oreign \ncountry to any such part ;",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 29 of 2004, s. 2 (w.e.f. 21 -9-2004).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 29 of 2004, s. 2 (w.e.f. 21 -9-2004).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Ins. by Act 35 of 2008, s. 2 (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 2 (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Subs. by Act 29 of 2004, s. 4, for section s 1, 2, 2A (w.e.f 21 -9-2004).  ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 29 of 2004, s. 4, for section s 1, 2, 2A (w.e.f 21 -9-2004).  \n5 \n (c) “Code ” means the Code of Criminal Procedure, 1973  (2 of 1974);  \n(d) “court ” means a  criminal court having jurisdiction, under the Code, to try offences under this \nAct 1[and includes a Special Court constituted under section 11 or under section 21 of the National \nInvestigation Agency Act, 2008] ; \n(e) “Designated Authority ” means such officer of the Central Government not below the rank of \nJoint Secretary",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 35 of 2008, s. 3 (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 3 (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Ins. by Act 3 of 2013, s. 2 (w. e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3 of 2013, s. 2 (w. e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Clause ( ea) renumbered clause ( eb) thereof by s. 2, ibid. (w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Clause ( ea) renumbered clause ( eb) thereof by s. 2, ibid. (w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "Subs. by s. 2, ibid., for clause ( g) (w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 2, ibid., for clause ( g) (w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "5.",
+    "title": "Subs. by Act 35 of 2008, s. 3,  for clause ( h) (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 35 of 2008, s. 3,  for clause ( h) (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "6.",
+    "title": "Subs. by Act 3 of 2013, s. 2, for “instruments in any form including” (w.e.f. 1 -2-2013).  ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 3 of 2013, s. 2, for “instruments in any form including” (w.e.f. 1 -2-2013).  \n6 \n (j) “State Government ”, in relati on to a Union territory, means the Administrator thereof;  \n(k) “terrorist act ” has the meaning assigned to it in section 15, and the expressions “terrorism ” \nand “terrorist ” shall be construed accordingly;  \n(l) “terrorist gang ” means any association, other th an terrorist organisation, whether systematic or \notherwise, which is concerned with, or involved in, t",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Declaration of an association as unlawful .—(1) If the Central Government  is of opinion that any ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Declaration of an association as unlawful .—(1) If the Central Government  is of opinion that any \nassociation is, or has become, an unlawful association, it may, by notification in the Official Gazette, \ndeclare such association to be unlawful.  \n(2) Every such notification  shall specify the grounds on which it is issued and such  other  particulars \nas the Central Government may consider necessary:  \nProvided that nothing in this  sub-section  shall require the Central Government to disclose ",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "Reference to Tribunal .—(1) Whe re any association has been declared unlawful by a notification ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Reference to Tribunal .—(1) Whe re any association has been declared unlawful by a notification \nissued under  sub-section ( 1) of section  3, the Central Government  shall, within thirty days from the date \nof the publication of the notification under the said  sub-section, refer the notification to the Tribunal for \nthe purpose of adjudicating whether or not there is sufficient cause for declaring the association unlawful.  \n(2) On receipt of a reference under  sub-section ( 1), the Tribunal  ",
+    "exceptions": []
+  },
+  {
+    "section": "5.",
+    "title": "Tribunal .—(1) The Central Government may, by notification in the Official Gazette, constitute,  as ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Tribunal .—(1) The Central Government may, by notification in the Official Gazette, constitute,  as \nand when necessary, a tribunal to be known as the “Unlawful Activities (Prevention) Tribunal ” consisting \nof one person, to be appo inted by the Central Government : \nProvide d that no person  shall be so appointed unless he is a Judge of a  High Court.  \n(2) If, for any reason, a vacancy (other than a temporary absence) occurs in the office of the presiding \nofficer of the Tribunal, then, the C",
+    "exceptions": []
+  },
+  {
+    "section": "6.",
+    "title": "Period of operation and cancellation of notification .—(1) Subject to the provisions of               ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Period of operation and cancellation of notification .—(1) Subject to the provisions of               \nsub-section ( 2), a notification issued under section 3 shall, if the declaration made therein is confirmed by \nthe Tribunal by an order made under section 4, remain in force for a period of  3[five years]  from the date \non which the notification becomes effective.  \n(2) Notwit hstanding anything contained in sub -section ( 1), the Central Government may, either on its \nown motion or on the ap",
+    "exceptions": []
+  },
+  {
+    "section": "7.",
+    "title": "Power to prohibit the use of funds of an unlawful association .—(1) Where an association has ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to prohibit the use of funds of an unlawful association .—(1) Where an association has \nbeen declared unlawful by a notification issued under section 3 which has become effective under        \nsub-section ( 3) of that  section and the Central Government is satisfied, after such inquiry as it may think \nit, that any person has custody of any moneys, securities or credits which are being used or are intended to \nbe used for the purpose of the unlawful association, the Centr al Government may",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Subs. by Act 29 of 2004, s. 5, for “Chapter XXXV” (w.e.f. 21 -9-2004).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 29 of 2004, s. 5, for “Chapter XXXV” (w.e.f. 21 -9-2004).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Subs. by s. 3, ibid.,  for “Code of Criminal Procedure, 1898  (5 of 1898)”  (w.e.f. 21 -9-2004).",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 3, ibid.,  for “Code of Criminal Procedure, 1898  (5 of 1898)”  (w.e.f. 21 -9-2004).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Subs. by Act 3 of 2013, s. 3, for “two years” (w.e.f. 1 -2-2013).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 3 of 2013, s. 3, for “two years” (w.e.f. 1 -2-2013).  \n9 \n (5) Except so far as is necessary for the purposes of any proceedings under this section, no \ninformation obtained in the course of any investigation made under sub -section ( 2) shall be divulged by \nany gazetted officer of the Government, without the consent of the Central Government.  \n(6) In this section, “security ” includes a document whereby any person acknowledges that he is under \na legal liability to pay money, or ",
+    "exceptions": []
+  },
+  {
+    "section": "8.",
+    "title": "Power to notify places used for the purpose of an unlawful association .—(1) Where an ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to notify places used for the purpose of an unlawful association .—(1) Where an \nassociation has been declared unlawful by a notification issued under section 3 which has become \neffective under sub -section ( 3) of that section, the Central Government may, by notification in the Official \nGazette, notify any place which in its opinion is used for the purpose of such unlawful association.  \nExplanation. —For the purposes of this sub -section, “place” includes a house or building , or part ",
+    "exceptions": []
+  },
+  {
+    "section": "9.",
+    "title": "Procedure to be followed in the disposal of applications under this Act .—Subject to any rules ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Procedure to be followed in the disposal of applications under this Act .—Subject to any rules \nthat may be made under this Act, the procedure to be followed by the Tribunal in holding any inquiry \nunder sub -section ( 3) of section 4 or by a Court of the District Judge in disposing of any application under \nsub-section ( 4) of section 7 or sub -section ( 8) of section 8 shall, so far as may be, be the procedure laid \n10 \n down in the  Code of Civil Procedure, 1908  (5 of 1908) , for the investi",
+    "exceptions": []
+  },
+  {
+    "section": "11.",
+    "title": "Penalty for dealing with funds of an unlawful association .—If any person on whom a ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Penalty for dealing with funds of an unlawful association .—If any person on whom a \nprohibitory order has been served under sub -section ( 1) of section 7 in respect of any moneys, securities \nor credits pays, delivers, transfers or otherwise deals in any manner whatsoever with the same in \ncontravention of the prohibitory order, he shall be punishable with imprisonment for a term which may \nextend to three years, or with fi ne, or with both, and notwithstanding anything contained in the  2[Cod",
+    "exceptions": []
+  },
+  {
+    "section": "12.",
+    "title": "Penalty for contravention of an order made in respect of a notified place .—(1) Whoever  uses ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Penalty for contravention of an order made in respect of a notified place .—(1) Whoever  uses \nany article in contravention of a prohibitory order in respect thereof made under sub -section ( 3) of     \nsection 8 shall be punishable with imprisonment for a term which may extend to one year, and shall also \nbe liable to fine.  \n(2) Whoever knowingly and wilfully is in, or effects or attempts to effect entry into, a notified place \nin contravention of an order made under sub -section ( 4) of secti",
+    "exceptions": []
+  },
+  {
+    "section": "13.",
+    "title": "Punishment for unlawful activities .—(1) Whoever — ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for unlawful activities .—(1) Whoever — \n(a) takes part in or commits, or",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Subs. by Act 29 of 2004, s. 6, for section 10 (w.e.f. 21 -9-2004).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 29 of 2004, s. 6, for section 10 (w.e.f. 21 -9-2004).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Subs. by s. 3, ibid.,  for “C ode of Criminal Procedure, 1898  (5 of 1898)” (w.e.f. 21 -9-2004).  ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 3, ibid.,  for “C ode of Criminal Procedure, 1898  (5 of 1898)” (w.e.f. 21 -9-2004).  \n11 \n (b) advocates, abets, advises or incites the commission of, any unlawful activity, shall be \npunishable with imprisonment for a term which may extend to seven years and shall also be liable to \nfine. \n(2) Whoever, in any way, assists any unlawful activity of any association , declared unlawful under \nsection 3, after the notification by which it has been so declared has become effective under ",
+    "exceptions": []
+  },
+  {
+    "section": "14.",
+    "title": "Offences to be cognizable .—Notwithstanding anything contained in the  1[Code] , an offence ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Offences to be cognizable .—Notwithstanding anything contained in the  1[Code] , an offence \npunishable under this Act shall be cognizable.  \n2[CHAPTER IV  \nPUNISHMENT FOR TERRORIST A CTIVITIES  \n3[15. Terrorist act .—4[(1)] Whoever does any act with intent to threaten or likely to threaten the \nunity, integrity, security  5[, economic security,] or sovereignty of India or with intent to strike terror or \nlikely to strike terror in the people  or any section of the people in India or in any fore",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Subs. by Act 29 of 2004,  s. 3, for “Code of Criminal Procedure, 1898  (5 of 1898)”  (w.e.f. 21 -9-2004).",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 29 of 2004,  s. 3, for “Code of Criminal Procedure, 1898  (5 of 1898)”  (w.e.f. 21 -9-2004).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Subs. by s. 7, ibid.,  for Chapter IV (w.e.f. 21 -9-2004).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 7, ibid.,  for Chapter IV (w.e.f. 21 -9-2004).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Subs. by Act 35 of 2008, s. 4, for section 15 (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 35 of 2008, s. 4, for section 15 (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "Section 15 r enumbered  as sub -section ( 1) thereof by Act 3 of 2013 , s. 4 (w.e.f. 1 -2-2013 ).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Section 15 r enumbered  as sub -section ( 1) thereof by Act 3 of 2013 , s. 4 (w.e.f. 1 -2-2013 ).",
+    "exceptions": []
+  },
+  {
+    "section": "5.",
+    "title": "Ins. by s. 4 , ibid. (w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by s. 4 , ibid. (w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "6.",
+    "title": "Subs. by s. 4, ibid.,  for “any other person to do or abstain from doing any act,” ( w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 4, ibid.,  for “any other person to do or abstain from doing any act,” ( w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "7.",
+    "title": "Subs. by s. 4, ibid., for the  Explanation  (w.e.f. 1 -2-2013).  ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 4, ibid., for the  Explanation  (w.e.f. 1 -2-2013).  \n12 \n (b) “high quality counterfeit Indian currency ” means the counterfeit currency as may be declared \nafter examinat ion by an authorised or notified forensic authority that such currency imitates or \ncompromises with the key security features as specified in the Third Schedule.]  \n1[(2) The terrorist act includes an act which constitutes an offence within the scope of , and as defined \nin any of the treaties specified in the Se",
+    "exceptions": []
+  },
+  {
+    "section": "16.",
+    "title": "Punishment for terrorist act.—(1) Whoever commits a terrorist act shall, — ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for terrorist act.—(1) Whoever commits a terrorist act shall, — \n(a) if such act has resulted in the death of any person, be punishable with death or imprisonment \nfor life, and shall also be liable to fine;  \n(b) in any other case, be punishable with imprisonment for a term which shall not be less than \nfive years but which may extend to imprisonment for life, and shall also be liable to fine.  \n16A. [Punishment for making demands of radioactive substances, nuclear devices, etc .] Om",
+    "exceptions": []
+  },
+  {
+    "section": "18.",
+    "title": "Punishment for conspiracy, etc. —Whoever conspires or attempts to commit, or advocates, ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for conspiracy, etc. —Whoever conspires or attempts to commit, or advocates, \nabets,  advises or  3[incites , directly or knowingly facilitates] the commission of, a terrorist act or any act \npreparatory to the commission of a terrorist act, shall be punishable with imprisonment for a term which \nshall not be less than five years but which may  extend to imprisonment for life, and shall also be liable to \nfine. \n4[18A. Punishment for organi sing of terrorist camps .—Whoever organises ",
+    "exceptions": []
+  },
+  {
+    "section": "19.",
+    "title": "Punishment for harbouring, etc. —Whoever voluntarily harbours or conceals, or attempts to ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for harbouring, etc. —Whoever voluntarily harbours or conceals, or attempts to \nharbour or conceal any person knowing that such person is a terrorist shall be punishable with",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 3  of 2013, s. 4 (w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3  of 2013, s. 4 (w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Subs. by s. 6, ibid.,  for section 17 (w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 6, ibid.,  for section 17 (w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Subs. by Act 35 of 2008, s. 7, for “incites or knowingly facilitates” (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 35 of 2008, s. 7, for “incites or knowingly facilitates” (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "Ins. by s. 8, ibid. (w.e.f. 31 -12-2008).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by s. 8, ibid. (w.e.f. 31 -12-2008).  \n13 \n imprisonment for a term which shall not be less than three ye ars but which may extend to imprisonment \nfor life, and shall also be liable to fine:  \nProvided that this section shall not apply to any case in which the harbour or concealment is by the \nspouse of the offender.",
+    "exceptions": []
+  },
+  {
+    "section": "20.",
+    "title": "Punishment for being member of terrorist gang or organisation .—Any person who is a ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for being member of terrorist gang or organisation .—Any person who is a \nmember of a terrorist gang or a terrorist organisation, which is involved in terrorist act, shall be \npunishable with imprisonment for a term which may extend to imprisonment for life, and shall also be \nliable to fin e.",
+    "exceptions": []
+  },
+  {
+    "section": "21.",
+    "title": "Punishment for holding proceeds of terrorism .—Whoever  knowingly holds any property ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Punishment for holding proceeds of terrorism .—Whoever  knowingly holds any property \nderived or obtained from commission of any terrorist act or acquired through the terrorist fund shall be \npunishable with imprisonment for a term which may extend to imprisonment for life, and shall also be \nliable to fine.",
+    "exceptions": []
+  },
+  {
+    "section": "22.",
+    "title": "Punishment for threatening witness .—Whoever threatens any person who is a witness or any ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Punishment for threatening witness .—Whoever threatens any person who is a witness or any \nother person in whom such witness may be interested, with violence, or wrongfully restrains or confines \nthe witness, or any other person in whom the witness may be int erested, or does any other unlawful act \nwith intent to cause any of the said acts, shall be punishable with imprisonment which may extend to \nthree years, and shall also be liable to fine.  \n1[22A. Offences by companies .—(1) Where an offe",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 3 of 2013 , s. 7 (w.e.f . 1-2-2013 ). ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3 of 2013 , s. 7 (w.e.f . 1-2-2013 ). \n14 \n officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and \npunished accordingly.  \nExplanation. —For the purpose of this section, — \n(a) “society ” means any body corporate registered under the Societies Registration                   \nAct, 1860  (21 of 1860) or any other State Act governing the registration of societies;  \n(b) “trust” means any body  registered under the Indian Trusts Act, 18",
+    "exceptions": []
+  },
+  {
+    "section": "23.",
+    "title": "Enhanced penalties .—(1) 1[If any person with intent to aid any terrorist or terrorist organisation ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Enhanced penalties .—(1) 1[If any person with intent to aid any terrorist or terrorist organisation \nor a terrorist gang contravenes] any provision of, or any rule made under the Explosives                          \nAct, 1884  (4 of 1884) or the Explosive Substances Act, 1908  (6 of 1908) or the Inflammable Substances \nAct, 1952  (20 of 1952) or the Arms Act, 1959  (54 of 1959), or is in unauthorised possession of any bomb, \ndynamite or hazardous explosive substance or other le thal weapon or su",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Subs. by Act 35 of 2008, s. 9, for “If any person with intent to aid any terrorist contravenes” (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 35 of 2008, s. 9, for “If any person with intent to aid any terrorist contravenes” (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Subs. by Act 3 of 2013, s. 8, for “chemical substance of warfare, he shall” (w.e.f.  1-2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 3 of 2013, s. 8, for “chemical substance of warfare, he shall” (w.e.f.  1-2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Subs. by Act 35 of 2008, s. 9, for “Any person who, with the intent to aid any terrorist” (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 35 of 2008, s. 9, for “Any person who, with the intent to aid any terrorist” (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "Ins. by Act 3 of 2013, s. 9 (w.e.f.  1-2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3 of 2013, s. 9 (w.e.f.  1-2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "5.",
+    "title": "Subs. by s. 10, ibid.,  for section 24 (w.e.f.  1-2-2013).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 10, ibid.,  for section 24 (w.e.f.  1-2-2013).  \n15 \n (3) Where proceedings have been commenced under this section, the court may pass an order \ndirecting attachment or forfeiture, as the case may be, of property equivalent to, or, the value of the \nproceeds of terrorism involved in the offence.]",
+    "exceptions": []
+  },
+  {
+    "section": "25.",
+    "title": "Powers of investigating officer and Designated Authority and appeal against order of ",
+    "type": "Definition",
+    "prerequisites": [],
+    "consequence": "Powers of investigating officer and Designated Authority and appeal against order of \nDesignated Authority .—(1) If an officer investigating an offence committed under Chapter IV or \nChapter VI, has reason to believe that any property in relation to which an investigation is being \nconducted, represents proceeds of terrorism, he shall, with the prior approval in writing of the Director \nGeneral of the Police of the State in which such property is situated, make a n order seizing such property \na",
+    "exceptions": []
+  },
+  {
+    "section": "26.",
+    "title": "Court to order forfeiture of proceeds of terrorism .—Where a ny property is seized or attached ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Court to order forfeiture of proceeds of terrorism .—Where a ny property is seized or attached \non the ground that it constitutes proceeds of terrorism and the court confirms the order in this regard \nunder sub -section ( 6) of section 25, it may order forfeiture of such property, whether or not the person",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 35 of 2008, s. 11 (w.e.f. 31 -12-2008).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 11 (w.e.f. 31 -12-2008).  \n16 \n from whose po ssession it is seized or attached, is prosecuted in a court for an offence under Chapter IV or \nChapter VI.",
+    "exceptions": []
+  },
+  {
+    "section": "27.",
+    "title": "Issue of show cause notice before forfeiture of proceeds of terrorism .—(1) No order forfeiting ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Issue of show cause notice before forfeiture of proceeds of terrorism .—(1) No order forfeiting \nany proceeds of terrorism shall be made under section 26 unless the person holding or in possession of \nsuch proceeds is given a notice in writing informing him of the grounds on which it is proposed to forfeit \nthe proceeds of terrorism and such person is given an opportunity of making a representation  in writing \nwithin such reasonable time as may be specified in the notice against the grounds of ",
+    "exceptions": []
+  },
+  {
+    "section": "28.",
+    "title": "Appeal .—(1) Any person aggrieved by an order of forfeiture under section 26 may, within one ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Appeal .—(1) Any person aggrieved by an order of forfeiture under section 26 may, within one \nmonth from the date of the receipt of such order, appeal to the High Court within whose jurisdiction, the \ncourt, which passed the order appealed against, is situated.  \n(2) Where an order under section 26 is modified or annulled by the High Court or where in a \nprosecution instituted for any offence under Chapter IV or Chapter VI, the person against whom an order \nof forfeiture has been made under sect",
+    "exceptions": []
+  },
+  {
+    "section": "29.",
+    "title": "Order of forfeiture not to Interfere with other punishments .—The order of forfeiture made ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Order of forfeiture not to Interfere with other punishments .—The order of forfeiture made \nunder this Chapter by the court, shall not prevent the infliction of any other punishment to which the \nperson affected thereby is liable under C hapter IV or Chapter VI.",
+    "exceptions": []
+  },
+  {
+    "section": "30.",
+    "title": "Claims by third party.—(1) Where any claim is preferred or any objection is made to the seizure ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Claims by third party.—(1) Where any claim is preferred or any objection is made to the seizure \nor attachment of any property under section 25 on the ground that such proper ty is not liable to seizure or \nattachment, the Designated Authority before whom such property is produced, shall proceed to \ninvestigate the claim or objection:  \nProvided that no such investigation shall be made where the Designated Authority considers that the \nclaim or objection is designed to cause unn ecessary delay. ",
+    "exceptions": []
+  },
+  {
+    "section": "31.",
+    "title": "Powers of Designated Authority .—The Designated Authority, acting under the provisions of ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Powers of Designated Authority .—The Designated Authority, acting under the provisions of \nthis Chapter, shall have all the powers of a civil court required for making a full and fair inquiry into the \nmatter before it.",
+    "exceptions": []
+  },
+  {
+    "section": "32.",
+    "title": "Certain transfers to be null and void.—Where, after the issue of an order under section 25 or ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Certain transfers to be null and void.—Where, after the issue of an order under section 25 or \nissue of a notice under section 27, any property referred to in the said order or notice is transferred by any \nmode whatsoever, such transfer  shall, for the purpose of the proceedings under this Chapter, be ignored \nand if such property is subsequently forfeited, the transfer of such property shall be deemed to be null and \nvoid.  \n  \n17",
+    "exceptions": []
+  },
+  {
+    "section": "33.",
+    "title": "Forfeiture of property of certain persons .—(1) Where any person is accused of an offence ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Forfeiture of property of certain persons .—(1) Where any person is accused of an offence \nunder Chapter IV or Chapter VI, it shall be open to the court to pass an order that all or any of the \nproperties, movable or immovable or both, belonging to him, shall, during the period of such trial, be \nattache d, if not already attached under this Chapter.  \n(2) Where a person has been convicted of any offence punishable under Chapter IV or Chapter VI, \nthe court may, in addition to awarding any punis",
+    "exceptions": []
+  },
+  {
+    "section": "34.",
+    "title": "Company to transfer shares to Government .—Where any share in a company stand forfeited to ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Company to transfer shares to Government .—Where any share in a company stand forfeited to \nthe Central Government or the State Government, as the case may be, under this Chapter, then, the \ncompany shall, on receipt of the order of the court, notwithstanding anything contai ned in the Companies \nAct, 1956 ( 1 of 1956), or the articles of association of the company, forthwith register the Central \nGovernment or th e State Government, as the case may be, as the transferee of such share.  \n \nCHAPT",
+    "exceptions": []
+  },
+  {
+    "section": "35.",
+    "title": "Amendment of Schedule, etc. —(1) The Central Government may, by  2[notification], in the ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Amendment of Schedule, etc. —(1) The Central Government may, by  2[notification], in the \nOfficial Gazette, — \n(a) add an organisation to the  3[First Schedule];  \n(b) add also an organisation to the  3[First Schedule], which is identified as a terrorist organisation \nin a resolution adopted by the Security Council under Chapter VII of the Charter of the United \nNations, to combat international terrori sm; \n(c) remove an organisation from the  3[First Schedule];  \n(d) amend the  3[First Schedule",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 3 of 2013, s. 11 (w.e.f . 1-2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3 of 2013, s. 11 (w.e.f . 1-2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Subs. by s. 12, ibid.,  for “order” (w.e.f. 1 -2-2013).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 12, ibid.,  for “order” (w.e.f. 1 -2-2013).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Subs. by s. 12, ibid.,  for “Schedule” (w.e.f. 1 -2-2013).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by s. 12, ibid.,  for “Schedule” (w.e.f. 1 -2-2013).  \n18 \n (d) is otherwise involved in terrorism.  \n1[(4) The Central Government may, by notification in the Official Gazette, add to or remove or amend \nthe Second Schedule or Third Schedule and thereupon the Second Schedule or the Third S chedule, as the \ncase may be, shall be deemed to have been amended accordingly.  \n(5) Every notification issued under sub -section ( 1) or sub -section ( 4) shall, as soon as may be after it \nis issued, ",
+    "exceptions": []
+  },
+  {
+    "section": "36.",
+    "title": "Denotification of a terrorist organisation .—(1) An application may be made to the Central ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Denotification of a terrorist organisation .—(1) An application may be made to the Central \nGovernment for the exercise of its power under clause ( c) of sub -section ( 1) of section 35 to remove an \norganisation from the Schedule.  \n(2) An application under sub -section ( 1) may be made by — \n(a) the organisation, or  \n(b) any person affected by inclusion of the organisation in the Schedule as a terrorist organisation.  \n(3) The Central Government may prescribe the procedure for admission and d",
+    "exceptions": []
+  },
+  {
+    "section": "37.",
+    "title": "Review Committees .—(1) The Central Government shall cons titute one or more Review ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Review Committees .—(1) The Central Government shall cons titute one or more Review \nCommittees for the purposes of section 36.  \n(2) Every such Committee shall consist of a Chairperson and such other members not exceeding three \nand possessing such qualifications as may be prescribed.  \n(3) A Chairperson of the Committee shall be a person who is, or has been, a Judge of a High Court, \nwho shall be appointed by the Central Government and in the case of appointment of a sitting Judge, the \nconcur",
+    "exceptions": []
+  },
+  {
+    "section": "38.",
+    "title": "Offence relating to membership of a terrorist organisation .—(1) A person, who associates ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Offence relating to membership of a terrorist organisation .—(1) A person, who associates \nhimself, or professes to be associated, with a terrorist organisation with intention to further its activities, \ncommits an offence relating to membership of a te rrorist organisation:  \nProvided that this sub -section shall not apply where the person charged is able to prove — \n(a) that the organisation was not declared as a terrorist organisation  at the time when he became a \nmember or began to profess ",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 3 of 2013, s. 12 (w.e.f. 1 -2-2013).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3 of 2013, s. 12 (w.e.f. 1 -2-2013).  \n19",
+    "exceptions": []
+  },
+  {
+    "section": "39.",
+    "title": "Offence relating to support given to a terrorist organisation .—(1) A person commits the ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Offence relating to support given to a terrorist organisation .—(1) A person commits the \noffence relating to support given to a terrorist  organisation, — \n(a) who, with intention to  further the activity of a terrorist organisation, — \n(i) invites  support for the terrorist organization;  and \n(ii) the  support is not or is not restricted to provide money or  other property within the  \nmeaning of  section 40;  or \n(b) who, with  intention to further the activity of a terrorist organisation, a",
+    "exceptions": []
+  },
+  {
+    "section": "40.",
+    "title": "Offence of raising fund for a terrorist organisation .—(1) A person commits the offence of ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Offence of raising fund for a terrorist organisation .—(1) A person commits the offence of \nraising fund for a terrorist organisation, who, with intention to further the activity of a terrorist \norganisation, — \n(a) invites another person to provide money or other property, and intends that it should be used, \nor has  reasonable cause to suspect that it might be used, for the purposes of terrorism; or  \n(b) receives money or other property, and intends that it should be used, or has reasonable c",
+    "exceptions": []
+  },
+  {
+    "section": "41.",
+    "title": "Continuance of association .—An association shall not be deemed to have ceased to exist by ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Continuance of association .—An association shall not be deemed to have ceased to exist by \nreason only of any formal act of its dissolution or change of name but shall be deemed to continue so long \nas any actual combination for the purposes of such association continues be tween any members thereof.",
+    "exceptions": []
+  },
+  {
+    "section": "42.",
+    "title": "Power to delegate .—The Central Government may, by notification in the Official Gazette, direct ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Power to delegate .—The Central Government may, by notification in the Official Gazette, direct \nthat all or any of the powers which may be exercised by it under section 7, or section 8, or both, shall, in \nsuch circumstances an d under such conditions, if any, as may be specified in the notification, be exercised",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Subs. by Act 3 of 2013, s. 13, for the Explanation  (w.e.f. 1 -2-2013 ). ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Subs. by Act 3 of 2013, s. 13, for the Explanation  (w.e.f. 1 -2-2013 ). \n20 \n also by any State Government and the State Government may, with the previous approval of the Central \nGovernment, by order in writing, direct that any power which has bee n directed to be exercised by it \nshall, in such circumstances and under such conditions, if any, as may be specified in the direction, be \nexercised by any person subordinate to the State Government as may be specified therein.",
+    "exceptions": []
+  },
+  {
+    "section": "43.",
+    "title": "Officers competent to investigate offence s under Chapters IV and VI .—Notwithstanding ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Officers competent to investigate offence s under Chapters IV and VI .—Notwithstanding \nanything contained in the Code, no  police officer, — \n(a) in the  case of the Delhi Special Police Establishment , constituted under  sub-section ( 1) of \nsection 2 of the Delhi Special Police Establishment Act, 1946  (25 of 1946), below the rank of a  \nDeputy Superintendent of Police or a police officer of equivalent rank;  \n(b) in the  metropolitan areas of Mumbai, Kolkata, Chennai and Ahmedabad and any  o",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 35 of 2008, s. 12 (w.e.f. 31 -12-2008).  ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 12 (w.e.f. 31 -12-2008).  \n21 \n (b) after the proviso, the following provisos shall be inserted, namely: — \n“Provided further that  if it is not possible to complete the investigation within the said period \nof ninety days, the Court may if it is satisfied with the report of the Public Prosecutor indicating \nthe progress of the investigation and the specific reasons for the detention of  the accused beyond \nthe said period of ninety days, extend the said period up to o",
+    "exceptions": []
+  },
+  {
+    "section": "44.",
+    "title": "Protection of witnesses .—(1) Notwithstanding anything contained in the Code, the proceedings ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Protection of witnesses .—(1) Notwithstanding anything contained in the Code, the proceedings \nunder this Act may, for reasons to be recorded in writing, be held in camera  if the court so desires.  \n(2) A court, if on an application made by a witness in any proceeding before it or by th e Public \nProsecutor in relation to such witness or on its own motion, is satisfied that the life of such witness is in \ndanger, it may, for reasons to be recorded in writing, take such measures as it deems fit ",
+    "exceptions": []
+  },
+  {
+    "section": "45.",
+    "title": "Cognizance of offences .—1[(1)] No court shall take cognizance of any offence — ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Cognizance of offences .—1[(1)] No court shall take cognizance of any offence — \n(i) under  Chapter III without the previous sanction of the Central Government or any officer \nauthorised by the Central Government in this behalf;  \n(ii) under Chapter IV and VI without the previous sanction of the Central Government or, as the \ncase may be, the State Government, and where such offence is committed against the Government of \na foreign country without the previous sanction of the Central Government.",
+    "exceptions": []
+  },
+  {
+    "section": "46.",
+    "title": "Admissibility of evidence collected through the interception of                    ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Admissibility of evidence collected through the interception of                    \ncommunications .—Notwithstanding anything contained in the Indian Evidence Act, 1872  (1 of 1872) or \nany other law for the time being in force, the evidence collected through the interception of wire, \nelectronic or oral communication under the provisions of the Indian Telegraph Act, 1885  (13 of 1885) or \nthe Informa tion Technology Act, 2000  (21 of 2000) or any other law for the time being in force, shall be ",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Section 45 r enumbered  as sub -section ( 1) thereof by Act 35 of 2008 , s. 13 (w.e.f. 31-12-2008 ).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Section 45 r enumbered  as sub -section ( 1) thereof by Act 35 of 2008 , s. 13 (w.e.f. 31-12-2008 ).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Ins. by s. 13 , ibid. (w.e.f. 31-12-2008).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by s. 13 , ibid. (w.e.f. 31-12-2008).  \n23 \n proceeding in any court unless each accused has been furnished with a copy of the order of the competent \nauthority under the afores aid law, under which the interception was directed, not less than ten days before \ntrial, hearing or proceeding:  \nProvided further that the period of ten days may be waived by the judge trying the matter, if he comes \nto the conclusion that it was not possible to furnish the accused with such order ten days before ",
+    "exceptions": []
+  },
+  {
+    "section": "47.",
+    "title": "Bar of jurisdiction .—(1) Save as otherwise expressly provided in this Ac t, no proceeding taken ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Bar of jurisdiction .—(1) Save as otherwise expressly provided in this Ac t, no proceeding taken \nunder this Act by the Central Government or the District Magistrate or any officer authorised in this \nbehalf by the Central Government or the District Magistrate, shall be called in question in any civil court \nin any suit or applicat ion or by way of appeal or revision, and no injunction shall be granted by any civil \ncourt or other authority in respect of any action taken or to be taken in pursua",
+    "exceptions": []
+  },
+  {
+    "section": "48.",
+    "title": "Effect of Act and rules, etc ., inconsistent with other enactments .—The provisions of this Act ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Effect of Act and rules, etc ., inconsistent with other enactments .—The provisions of this Act \nor any rule or order made thereunder shall have effect notwithstanding anything inconsistent therewith \ncontained in any enactment other than this Act or any instrument having effect by virtue of any enactment \nother than this Act.",
+    "exceptions": []
+  },
+  {
+    "section": "49.",
+    "title": "Protection of action taken in good faith.—No suit, prosecution or other legal proceeding shall ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Protection of action taken in good faith.—No suit, prosecution or other legal proceeding shall \nlie against — \n(a) the Central Government or a State Government or any officer or authority of the Central \nGovernment or State Government or District Magistrate or any officer authorised in this behalf by the \nGovernment or the District Magistrate or any other authority on whom powers have been conferred \nunder this Act, for anything which is in good faith done or purported to be done in pursuance of",
+    "exceptions": []
+  },
+  {
+    "section": "50.",
+    "title": "Saving .—Nothing in this Act shall affect the jurisdiction exercisable by, or the procedure ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Saving .—Nothing in this Act shall affect the jurisdiction exercisable by, or the procedure \napplicable to, any court or other authority under any law relating to the navy, army or air force or other \narmed forces of the Union.",
+    "exceptions": []
+  },
+  {
+    "section": "51.",
+    "title": "Impounding of passport and arms licence of person charge sheeted under the                 ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Impounding of passport and arms licence of person charge sheeted under the                 \nAct.—Notwithstanding anything containe d in any other law for the time being in force, the passport and \nthe arms licence of a person, who is charge -sheeted for having committed any offence under this Act, \nshall be deemed to have been impounded for such period as the court may deem fit.  \n1[51A. Certain powers of t he Central Government .—For the prevention of, and for coping with \nterrorist activities,",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 35 of 2008, s. 14 (w.e.f. 31 -12-2008).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 14 (w.e.f. 31 -12-2008).  \n24",
+    "exceptions": []
+  },
+  {
+    "section": "52.",
+    "title": "Power to make rules.—(1) The Central Government may, by notification in the Officia l Gazette, ",
+    "type": "Procedure",
+    "prerequisites": [],
+    "consequence": "Power to make rules.—(1) The Central Government may, by notification in the Officia l Gazette, \nmake rules for carrying out the provisions of this Act.  \n(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may \nprovide for all or any of the following matters, namely: — \n(a) the service of notices or orders issued or made under this Act and the manner in which such \nnotices or orders may be served, where the person to be served is a corporation, company,",
+    "exceptions": []
+  },
+  {
+    "section": "53.",
+    "title": "Orders and rules to be laid before both Houses of Parliament .—2[(1)] Every order and every ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Orders and rules to be laid before both Houses of Parliament .—2[(1)] Every order and every \nrule made by the Central Government under this Act shall be laid, as soon as may be after it is made, \nbefore each House of Parliament, while it is in session, for a total period of thirty days which may be \ncomprised in one session or in two or more successive sessions, and if, before the expiry of the session \nimmediately followi ng the session or the successive sessions aforesaid, both Houses agree in",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 35 of 2008, s. 15 (w.e.f. 31 -12-2008).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 15 (w.e.f. 31 -12-2008).",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "Section 53 r enumbered  as sub -section ( 1) thereof by s. 16, ibid. (w.e.f. 31-12-2008 ).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Section 53 r enumbered  as sub -section ( 1) thereof by s. 16, ibid. (w.e.f. 31-12-2008 ).",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "Ins. by s. 16 , ibid. (w.e.f. 31 -12-2008).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by s. 16 , ibid. (w.e.f. 31 -12-2008).  \n25 \n  \n1[THE FIRST SCHEDULE ] \n[See sections 2( 1)(m) and 35]  \nTERRORIST ORGANISATIONS",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "BABBAR KHALSA INTERNATIONAL.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "BABBAR KHALSA INTERNATIONAL.",
+    "exceptions": []
+  },
+  {
+    "section": "2.",
+    "title": "KHALISTAN COMMANDO FORCE.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "KHALISTAN COMMANDO FORCE.",
+    "exceptions": []
+  },
+  {
+    "section": "3.",
+    "title": "KHALISTAN ZINDABAD FORCE.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "KHALISTAN ZINDABAD FORCE.",
+    "exceptions": []
+  },
+  {
+    "section": "4.",
+    "title": "INTERNATIONAL SIKH YOUTH FEDERATION.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "INTERNATIONAL SIKH YOUTH FEDERATION.",
+    "exceptions": []
+  },
+  {
+    "section": "5.",
+    "title": "LASHKAR -E-TAIBA/PASBAN -E-AHLE HADIS.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "LASHKAR -E-TAIBA/PASBAN -E-AHLE HADIS.",
+    "exceptions": []
+  },
+  {
+    "section": "6.",
+    "title": "JAISH -E-MOHAM MED/TAHRIK -E-FURQAN.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "JAISH -E-MOHAM MED/TAHRIK -E-FURQAN.",
+    "exceptions": []
+  },
+  {
+    "section": "7.",
+    "title": "HARKAT -UL-MUJAHIDEEN/HARKAT -UL-ANSAR/HARKAT -UL-JEHAD -E-ISLAMI.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "HARKAT -UL-MUJAHIDEEN/HARKAT -UL-ANSAR/HARKAT -UL-JEHAD -E-ISLAMI.",
+    "exceptions": []
+  },
+  {
+    "section": "8.",
+    "title": "HIZB -UL-MUJAHIDEEN/HIZB -UL-MUJAHIDEEN PIR PANJAL REGIMENT.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "HIZB -UL-MUJAHIDEEN/HIZB -UL-MUJAHIDEEN PIR PANJAL REGIMENT.",
+    "exceptions": []
+  },
+  {
+    "section": "9.",
+    "title": "AL -UMAR -MUJAHIDEEN.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "AL -UMAR -MUJAHIDEEN.",
+    "exceptions": []
+  },
+  {
+    "section": "10.",
+    "title": "JAMMU AND KASHMIR ISLAMIC FRONT.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "JAMMU AND KASHMIR ISLAMIC FRONT.",
+    "exceptions": []
+  },
+  {
+    "section": "11.",
+    "title": "UNITED LIBERATION FRONT OF ASSAM (ULFA).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "UNITED LIBERATION FRONT OF ASSAM (ULFA).",
+    "exceptions": []
+  },
+  {
+    "section": "12.",
+    "title": "NATIONAL DEMOCRATIC FRONT OF BODOLAND (NDFB).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "NATIONAL DEMOCRATIC FRONT OF BODOLAND (NDFB).",
+    "exceptions": []
+  },
+  {
+    "section": "13.",
+    "title": "PEOPLE ’S LIBERATION ARMY (PLA).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "PEOPLE ’S LIBERATION ARMY (PLA).",
+    "exceptions": []
+  },
+  {
+    "section": "14.",
+    "title": "UNITED NATIONAL LIBERATION FRONT (UNLF).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "UNITED NATIONAL LIBERATION FRONT (UNLF).",
+    "exceptions": []
+  },
+  {
+    "section": "15.",
+    "title": "PEOPLE ’S REVOLUTIONARY PARTY OF KANGLEIPAK (PREPAK).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "PEOPLE ’S REVOLUTIONARY PARTY OF KANGLEIPAK (PREPAK).",
+    "exceptions": []
+  },
+  {
+    "section": "16.",
+    "title": "KANGLEIPAK COMMUNIST PARTY (KCP).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "KANGLEIPAK COMMUNIST PARTY (KCP).",
+    "exceptions": []
+  },
+  {
+    "section": "17.",
+    "title": "KANGLEI YAOL KANBA LUP (KYKL).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "KANGLEI YAOL KANBA LUP (KYKL).",
+    "exceptions": []
+  },
+  {
+    "section": "18.",
+    "title": "MANIPUR PEOPLE ’S LIBERATION FRONT (MPLF).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "MANIPUR PEOPLE ’S LIBERATION FRONT (MPLF).",
+    "exceptions": []
+  },
+  {
+    "section": "19.",
+    "title": "ALL TRIPURA TIGER FORCE.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "ALL TRIPURA TIGER FORCE.",
+    "exceptions": []
+  },
+  {
+    "section": "20.",
+    "title": "NATIONAL LIBERATION FRONT OF TRIPURA.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "NATIONAL LIBERATION FRONT OF TRIPURA.",
+    "exceptions": []
+  },
+  {
+    "section": "21.",
+    "title": "LIBERATION TIGERS OF TAMIL EELAM (LTTE).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "LIBERATION TIGERS OF TAMIL EELAM (LTTE).",
+    "exceptions": []
+  },
+  {
+    "section": "22.",
+    "title": "STUDENTS ISLAMIC MOVEMENT OF INDIA.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "STUDENTS ISLAMIC MOVEMENT OF INDIA.",
+    "exceptions": []
+  },
+  {
+    "section": "23.",
+    "title": "DEENDAR ANJUMAN.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "DEENDAR ANJUMAN.",
+    "exceptions": []
+  },
+  {
+    "section": "24.",
+    "title": "COMMUNIST PARTY OF IN DIA (M ARXIST -LENINIST) —PEOPLE ’S  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "COMMUNIST PARTY OF IN DIA (M ARXIST -LENINIST) —PEOPLE ’S  \nWAR, ALL  ITS FORMATIONS AND FRONT ORGANISATIONS.",
+    "exceptions": []
+  },
+  {
+    "section": "25.",
+    "title": "MAOIST COMMUNIST CENTRE (MCC), ALL ITS FORMATIONS AND FRONT ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "MAOIST COMMUNIST CENTRE (MCC), ALL ITS FORMATIONS AND FRONT \nORGANISATIONS.",
+    "exceptions": []
+  },
+  {
+    "section": "26.",
+    "title": "AL BADR.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "AL BADR.",
+    "exceptions": []
+  },
+  {
+    "section": "27.",
+    "title": "JAMIAT -UL-MUJAHIDDEN.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "JAMIAT -UL-MUJAHIDDEN.",
+    "exceptions": []
+  },
+  {
+    "section": "28.",
+    "title": "AL -QAIDA.",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "AL -QAIDA.",
+    "exceptions": []
+  },
+  {
+    "section": "29.",
+    "title": "DUKHTARAN -E-MILLAT (DEM).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "DUKHTARAN -E-MILLAT (DEM).",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "The Schedule renumbered as the First Schedule thereof by Act 3 of 2013 , s. 14 (w.e.f. 1 -2-2013 ). ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "The Schedule renumbered as the First Schedule thereof by Act 3 of 2013 , s. 14 (w.e.f. 1 -2-2013 ). \n26",
+    "exceptions": []
+  },
+  {
+    "section": "30.",
+    "title": "TAMIL NA DU LIBERATION ARMY (TNLA).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "TAMIL NA DU LIBERATION ARMY (TNLA).",
+    "exceptions": []
+  },
+  {
+    "section": "31.",
+    "title": "TAMIL NATIONAL RETRIEVAL TROOPS (TNRT).",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "TAMIL NATIONAL RETRIEVAL TROOPS (TNRT).",
+    "exceptions": []
+  },
+  {
+    "section": "32.",
+    "title": "AKHIL BHARAT NEPALI EKTA SAMAJ (ABNES).  ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "AKHIL BHARAT NEPALI EKTA SAMAJ (ABNES).  \n1[33. Organisations listed in the Schedule to the U.N. Prevention and Suppression of Terrorism \n(Implementation of Security Council Resolution s) Order, 2007 made under section 2 of the \nUnited Nations (Security Council) Act, 1947  (43 of 1947) and amended from time to time.]",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 35 of 2008, s. 17 (w.e.f. 31 -12-2008).  ",
+    "type": "Penalty",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 35 of 2008, s. 17 (w.e.f. 31 -12-2008).  \n27 \n 1[THE SECOND SCHEDULE  \n[See section 15( 2)] \n(i) Convention for the Suppression of Unlawful Seizure of Aircraft (1970);  \n(ii) Convention for the Suppression of Unlawful Acts against the Safety of Civil Aviation ( 1971);  \n(iii) Convention on the Prevention and Punishment of Crimes against Internationally Protected \nPersons, including Diplomatic Agents (1973);  \n(iv) International Conv ention against the Taking of Hostages (1979);  \n(v)",
+    "exceptions": []
+  },
+  {
+    "section": "1.",
+    "title": "Ins. by Act 3 of 2013, s. 14 (w.e.f . 1-2-2013 ). ",
+    "type": "Right",
+    "prerequisites": [],
+    "consequence": "Ins. by Act 3 of 2013, s. 14 (w.e.f . 1-2-2013 ). \n28 \n THE THIRD SCHEDULE  \n[See clause ( b) of Explanation  to section 15( 1)] \nSecurity features to define high quality counterfeit Indian currency notes  \n(a) watermark;  \n(b) latent image; and  \n(c) see through registration in the currency notes.]",
+    "exceptions": []
+  }
+]
